@@ -5,7 +5,8 @@
 
 ## Useful References
 - Discord API Documentation : https://discord.com/developers/docs/intro
-- DiscordPy Library Documentation : https://discordpy.readthedocs.io/en/stable/index.html, 
+- Discord.py Library Documentation : https://discordpy.readthedocs.io/en/stable/index.html
+- Python Package Manager Documentation : https://pypi.org/project/pip/
 
 
 ## Setup 
