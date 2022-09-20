@@ -1,12 +1,16 @@
-import os
 from discord.ext import commands
+import discord
 
+intents = discord.Intents.default()
+intents.members = True
+intents.message_content = True
 bot = commands.Bot(
     command_prefix="!",  # Change to desired prefix
-    case_insensitive=True  # Commands aren't case-sensitive
+    case_insensitive=True, # Commands aren't case-sensitive
+    intents = intents # Set up basic permissions
 )
 
-bot.author_id = 0000000  # Change to your discord id!!!
+bot.author_id = 0000000  # Change to your discord id
 
 @bot.event
 async def on_ready():  # When the bot is ready
@@ -17,5 +21,5 @@ async def on_ready():  # When the bot is ready
 async def pong(ctx):
     await ctx.send('pong')
 
-token = "<MY_SUPER_TOKEN>"
+token = "<MY_TOKEN>"
 bot.run(token)  # Starts the bot
