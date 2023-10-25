@@ -45,11 +45,9 @@
 ### Administration
 [ ] When typing `!admin <A member nickname>`, your bot should create an Admin role (if it doesn't exists) on your server, allowing them to manage channels, kick and ban members, and give it to the member in parameter
 
-[ ] When typing `!ban <A member nickname>`, your bot should ban that member from the server (**Test with caution**)
+[ ] When typing `!ban <A member nickname> <ban reason?>`, your bot should ban that member from the server (**Test with caution**) displaying the input reason for the ban. If no ban reason is input, your bot should display a funny catchphrase picked at random in a given list
 
-[ ] When typing `!count` the bot should write back for each possible status (Online, Offline, Idle, Do not disturb) the number of members (including yourself) in the server with that status
-- Example : "3 members are online, 2 are idle and 4 are off"
-- Extra mile : Instead of counting the members, list them sorted by status
+[ ] The command `!flood` should activate (or deactivate) a moderation workflow. When activated, your bot should monitor the messages and display a warning to any user posting more than X messages in the last Y minutes. The (de)activation should be confirmed using a custom message
 
 
 
