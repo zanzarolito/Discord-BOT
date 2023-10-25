@@ -1,4 +1,4 @@
-# SIGL-BOT 2021
+# SIGL-BOT 2023
 
 ## Pre-requisites
 * Have discord installed on your laptop or access it through a web browser
