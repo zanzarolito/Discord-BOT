@@ -58,6 +58,8 @@
 - Example : `!poll "Should we get burgers ?"`
 - Extra-mile : Define a time-limit for the poll. When the limit has been reached, bot will bot a message with the final result and delete the original poll message
 
+[ ] Create a chat-GPT integration with the command `!prompt <prompt to be processed>`
+
 
 ### Bonus
 
